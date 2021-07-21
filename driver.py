@@ -2,8 +2,11 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import os
+from selenium import webdriver
+import chromedriver_binary
 
 
+driver = webdriver.Chrome()
 options =  Options();
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
