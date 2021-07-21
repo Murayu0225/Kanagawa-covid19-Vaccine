@@ -21,8 +21,6 @@ jobs:
           pip install selenium
 
       - uses: browser-actions/setup-chromium@latest
-        with:
-          chromium-version: 827102
 
       - name: Run download.py
         run: |
