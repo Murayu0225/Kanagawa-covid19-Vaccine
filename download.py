@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver import Chrome, ChromeOptions, Remote
 # 待機に必要
 import time
+options.add_argument('--headless')
 options = webdriver.ChromeOptions()
 options.add_experimental_option("prefs", {
   "download.default_directory": "Data/"
