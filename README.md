@@ -13,6 +13,8 @@ IssueやPRは、受け付けています。良さそうならマージします�
 ## ライセンス
 [MITライセンス](/LICENSE)を利用。
 
+-----
+
 ## Kanagawa Novel Coronavirus Vaccination Count and Percentage Automatic Collection System
 We automatically download CSV regarding "Novel Coronavirus Vaccination" published by Kanagawa Prefecture and publish it in this repository. (Right now, only the elderly)
 
