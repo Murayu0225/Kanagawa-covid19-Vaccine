@@ -19,11 +19,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install selenium
-          pip install chromedriver_binary==91.0.4472.101
 
-      - name: Install ChromeDriver
-        run: |
-          python driver.py
+      - uses: browser-actions/setup-chromium@latest
+        with:
+          chromium-version: 827102
 
       - name: Run download.py
         run: |
