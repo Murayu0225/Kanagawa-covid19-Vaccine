@@ -4,7 +4,7 @@ from selenium.webdriver import Chrome, ChromeOptions, Remote
 import time
 options = webdriver.ChromeOptions()
 options.add_experimental_option("prefs", {
-  "download.default_directory": "/home/yamada/public_html/download"
+  "download.default_directory": "Data/"
 })
 # prefs オプションを設定、デフォルトのダウンロードディレクトリ変更
 driver = webdriver.Chrome(options=options)
